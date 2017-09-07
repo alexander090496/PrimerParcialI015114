@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Bottonnavigation">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="itemIconTint">#FFFF</item>
+        <item name="itemTextColor">#ffffff</item>
+
+    </style>
+
 </resources>
