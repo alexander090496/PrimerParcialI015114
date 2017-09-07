@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class tres extends Fragment {
+public class LinearFragment extends Fragment {
 
 
-    public tres() {
+    public LinearFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +23,7 @@ public class tres extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tres, container, false);
+        return inflater.inflate(R.layout.fragment_linear, container, false);
     }
 
 }

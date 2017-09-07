@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.item1:
                         //cargar lista de la nueva activity
 
-                        uno pantalla1= new uno();
+                        LinearFragment pantalla1= new LinearFragment();
                         //bincula un activity dentro de mi frame layout
                         getSupportFragmentManager()
                                 //abrir el proceso
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.item2:
 
-                        dos pantalla2= new dos();
+                        RelativeFragment pantalla2= new RelativeFragment();
                         //bincula un activity dentro de mi frame layout
                         getSupportFragmentManager()
                                 //abrir el proceso
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Relative", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.item3:
-                        tres pantalla3= new tres();
+                        formFragment pantalla3= new formFragment();
                         //bincula un activity dentro de mi frame layout
                         getSupportFragmentManager()
                                 //abrir el proceso
